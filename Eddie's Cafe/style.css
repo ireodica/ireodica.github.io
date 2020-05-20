@@ -1,0 +1,195 @@
+/*--------BASICS--------*/
+body {
+    background-color: #FFF1C1;
+    font-family: 'Times New Roman', serif;
+    font-size: 1rem;
+    color: #B98011;
+    margin: 0;
+}
+
+p {
+    margin-top: 0;
+}
+
+a {
+    color: #681f30;
+}
+
+a:hover {
+    color: #C74632;
+    text-decoration: none;
+}
+
+header {
+    background-color: #681f30;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-right: 1rem;
+    width: 100%;
+    text-align: right;
+}
+
+.container {
+    margin-top: 3.5rem;
+}
+
+nav {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1.5rem;
+
+}
+
+nav a:hover {
+    color: #DBC025;
+}
+
+footer {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #681f30;
+    color: #fff;
+    font-size: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    height: 2.5rem;
+    padding-top: .75rem;
+}
+
+
+/*--------HOME PAGE--------*/
+#splashHome {
+    background-image: url('inside2%20copy.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 25rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.splashtext {
+    text-align: center;
+    color: #681f30;
+}
+
+h1 {
+    font-size: 3.3rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: normal;
+    font-size: 1.3rem;
+    color: #000;
+    margin: 50px 0px 10px 0px;
+}
+
+.center {
+    text-align: center;
+}
+
+#hours {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.days {
+    margin-right: 7.5rem;
+    text-align: left
+}
+
+
+/*--------MENU PAGE--------*/
+#menubox {
+    border: 2px solid #681f30;
+    padding: 1rem;
+    width: 65%;
+    margin: auto;
+    margin-top: 7.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+    text-align: center;
+    color: #000;
+    margin: .5rem;
+}
+
+h5 {
+    font-size: 1rem;
+    grid-column: 1/3;
+    margin: .25rem;
+}
+
+
+.menucol {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.menusubcol {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    column-gap: .5rem;
+}
+
+.submenu {
+    margin-left: .5rem;
+    font-size: .6rem;
+    column-gap: .5rem;
+
+}
+
+.menuextras {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    column-gap: .5rem;
+    padding: 10px 0px 10px 10px;
+}
+
+
+
+/*--------LOCATION PAGE--------*/
+#splashLocation {
+    background-image: url('sign.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 25rem;
+    display: flex;
+}
+
+.centerLocation {
+    width: 50%;
+    margin: auto;
+    padding: 1.5rem;
+    overflow: hidden;
+}
+
+.map {
+    float: left;
+    max-width: 60%;
+    height: auto;
+    padding-right: 1rem;
+}
+
+.address {
+    margin-top: 1rem;
+}
